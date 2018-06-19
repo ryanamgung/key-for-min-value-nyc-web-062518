@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   lowest = name_hash.values[0]
-  key = name_hash.key[0]
+  key = name_hash.keys[0]
   if name_hash.length == 0
     return 
   end
